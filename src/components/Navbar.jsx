@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <img src="/favicon.jpeg" alt="Hold My Blooms Logo" className="logo-img" />
+          <img src="favicon.jpeg" alt="Hold My Blooms Logo" className="logo-img" />
           <span className="logo-text">Hold My Blooms</span>
         </div>
         <ul className="nav-links">

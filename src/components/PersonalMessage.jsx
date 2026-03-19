@@ -31,14 +31,14 @@ const PersonalMessage = () => {
 
                     <div className="voice-player-container">
                         <div className="voice-icon-box">
-                            <img src="/favicon.jpeg" alt="Hold My Blooms Logo" className="voice-logo" />
+                            <img src="favicon.jpeg" alt="Hold My Blooms Logo" className="voice-logo" />
                         </div>
                         <div className="voice-text-area">
                             <span className="voice-subtitle">A Voice from My Heart</span>
                             <h3 className="voice-title">Listen to a Soft Message</h3>
                             <div className="audio-control-bar">
                                 <audio controls className="romantic-audio-player">
-                                    <source src="/assets/romantic_message.mp3" type="audio/mpeg" />
+                                    <source src="assets/romantic_message.mp3" type="audio/mpeg" />
                                     Your browser does not support the audio element.
                                 </audio>
                             </div>

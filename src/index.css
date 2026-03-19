@@ -177,7 +177,7 @@ h1, h2, h3, h4 {
   justify-content: center;
   text-align: center;
   padding: 0 2rem;
-  background-image: url('/assets/couple_beach_sunset.png');
+  background-image: url('assets/couple_beach_sunset.png');
   background-size: cover;
   background-position: center;
   margin-bottom: 6rem;
