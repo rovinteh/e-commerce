@@ -949,3 +949,109 @@ footer {
     padding: 3rem 2rem;
   }
 }
+
+/* UI/UX Pro Max: Specialized Mobile Responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    top: 1rem;
+    padding: 0.6rem 1.2rem;
+    width: calc(100% - 2rem);
+  }
+  
+  .logo-text {
+    font-size: 1.1rem;
+  }
+  
+  .nav-links {
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    font-size: 0.85rem;
+  }
+  
+  .nav-actions {
+    display: none;
+  }
+
+  .hero {
+    height: 80vh;
+    min-height: 500px;
+    margin-bottom: 4rem;
+  }
+
+  .hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .message-glass {
+    padding: 4rem 1.5rem;
+    border-radius: 40px;
+  }
+  
+  .message-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .letter-text {
+    font-size: 1.15rem;
+    line-height: 1.8;
+  }
+  
+  .counter-number {
+    font-size: 4rem;
+  }
+
+  .story-title {
+    font-size: 2.2rem;
+  }
+
+  .story-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .footer-logo {
+    width: 220px;
+  }
+
+  .curated-by {
+    font-size: 1.4rem;
+  }
+
+  .modal-story-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-links {
+    gap: 0.6rem;
+  }
+  
+  .logo-text {
+    display: none;
+  }
+
+  .story-image-area {
+    height: 280px;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .counter-number {
+    font-size: 3.2rem;
+  }
+  
+  .masonry-grid {
+    padding: 0 0.5rem;
+  }
+}
